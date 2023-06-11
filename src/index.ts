@@ -7,6 +7,7 @@ interface StrategyOptions {
 }
 
 export interface Profile extends PassportProfile {
+  provider: string;
   id: string;
   username?: string;
   name?: {
